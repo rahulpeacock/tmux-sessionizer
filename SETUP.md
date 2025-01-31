@@ -10,13 +10,14 @@ tmux-sessionizer is a tmux script that makes your workflow BLAZINGLY FAST writte
 
 - Here change the find paths to your corresponding paths to projects folder on which you want to work on
 
+## Keybindings
 
-## Add the macro `ctrl+f` on your `.bashrc`
+### Add the macro `ctrl+f` on your `.bashrc`
 ```bash
 bind '"\C-f": "tmux-sessionizer\n"'
 ```
 
-## Add the macro `ctrl+f` on your `.zshrc`
+### Add the macro `ctrl+f` on your `.zshrc`
 
 ```bash
 bindkey -s ^f "tmux-sessionizer\n"
